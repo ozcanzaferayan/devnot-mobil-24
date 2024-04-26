@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "0.6642535323304631",
+      "title": "new postocp3",
+      "views": 0
+    },
+    {
+      "id": "0.09869430427642155",
+      "title": "new postu7vh",
+      "views": 0
+    },
+    {
+      "id": "0.35868518383464343",
+      "title": "new posttcfs",
+      "views": 0
+    },
+    {
+      "id": "0.32648353225204874",
+      "title": "new postoaxw",
+      "views": 0
+    },
+    {
+      "id": "0.3207678150081289",
+      "title": "new postj476",
+      "views": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
