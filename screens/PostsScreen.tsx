@@ -3,7 +3,7 @@ import axios from "axios";
 import React from "react";
 import { Button, SafeAreaView, StyleSheet, Text } from "react-native";
 
-const API_URL = "http://192.168.1.101:3001";
+const API_URL = "http://localhost:3001";
 
 export interface Post {
   id: string;
@@ -69,14 +69,16 @@ const PostsScreen = () => {
         title="Add"
         onPress={() =>
           addPostMutation.mutate({
-            title: "new post" + Math.random().toString(36).substring(2, 6),
+            title: "Yeni Makale React" + Math.floor(Math.random() * 1000),
             views: 0,
           })
         }
       ></Button>
       {fetchedPosts
         ? fetchedPosts.map((post: any) => (
-            <Text key={post.id}>{post.title}</Text>
+            <Text key={post.id} style={{ fontSize: 42 }}>
+              {post.title}
+            </Text>
           ))
         : null}
     </SafeAreaView>
