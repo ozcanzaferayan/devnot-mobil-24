@@ -9,3 +9,7 @@ Dev dependencies
 ```bash
 yarn add -D @tanstack/eslint-plugin-query json-server
 ```
+
+# Sqlite ile çalışan repo
+
+https://github.com/kapobajza/React_Native_Offline_first_sample
